@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    align-items: center;
+
+}
+
+.container .button{
+    width: 2.3rem;
+    height: 2.3rem;
+
+    border-radius: 50%;
+    border: none;
+
+    background-color: var(--purple-light);
+    transition: background-color 0.3s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: -1rem;
+}
+
+.container .button:hover{
+    background-color: var(--purple);
+}
+
+.container .button:active{
+    transform: scale(1.5);
+}
